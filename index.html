@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gematria Calculator</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <div class="banner">
+                <h1>Calculate the Gematria Value of a Word</h1> 
+            </div>
+
+            <div class="moreinfo">
+                <a id="moreinfo" href=https://en.wikipedia.org/wiki/Gematria>What is Gematria?</a>
+                <blockquote>"Gematria is the practice of assigning a numerical value to a name, word or phrase according to an alphanumerical cipher." </blockquote>
+            </div>
+
+            <div class="textinput">
+                <input type="text" id="word" placeholder="Enter word"/> 
+                <input type="button" onclick = "calculateGematria()" value="Calculate"/>
+            </div>
+            
+            <div class="footer">
+                <div class="results" id="results">
+                    <div id="simpleResults"></div>
+                    <div id="jewishResults"></div>
+                    <div id="englishResults"></div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+
+    
+
+</html>
+
+
