@@ -104,8 +104,8 @@ function calculateGematria(word){
     console.log('Your Simple Gematria Value is: ' + sumSimple);
     console.log('Your Jewish Gematria Value is: ' + sumJewish)
     console.log('Your English Gematria Value is: ' + sumEnglish)
+
     document.getElementById('simpleResults').innerHTML = "The Simple Gematria Value of '" + originalWord + "' is: " + sumSimple;
     document.getElementById('jewishResults').innerHTML = "The Jewish Gematria Value of '" + originalWord + "' is: " + sumJewish;
     document.getElementById('englishResults').innerHTML = "The English Gematria Value of '" + originalWord + "' is: " + sumEnglish;
 }
-calculateGematria();
